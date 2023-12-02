@@ -27,5 +27,6 @@ Launch EC2 instance first and coneect it using SSH
 7.Start Jenkins as a service:
     -sudo systemctl start jenkins
 
-8. Add 8080 Port to EC2 instance
-   
+8.Add 8080 Port to EC2 instance
+
+9.Add public address with 8080 port
