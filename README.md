@@ -14,8 +14,9 @@
     https://pkg.jenkins.io/redhat-stable/jenkins.repo ```
 
 3.Import a key file from Jenkins-CI to enable installation from the package:
-     -sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
-     -sudo yum upgrade
+
+     ``` sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key ```
+     ``` sudo yum upgrade ```
 
 4.Install Java (Amazon Linux 2023):
      -sudo dnf install java-17-amazon-corretto -y
