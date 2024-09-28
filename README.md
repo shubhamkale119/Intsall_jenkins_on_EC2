@@ -18,17 +18,17 @@
       sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key 
       sudo yum upgrade`
 
-4.Install Java (Amazon Linux 2023):
+- Install Java (Amazon Linux 2023):
       `sudo dnf install java-17-amazon-corretto -y `
 
-5. Install Jenkins
-     -sudo yum install jenkins -y
+- Install Jenkins:
+      `sudo yum install jenkins -y`
 
-6.Enable the Jenkins service to start at boot:
-    -sudo systemctl enable jenkins
+- Enable the Jenkins service to start at boot:
+      `sudo systemctl enable jenkins`
 
-7.Start Jenkins as a service:
-    -sudo systemctl start jenkins
+- Start Jenkins as a service:
+      `sudo systemctl start jenkins`
 
-8.Add 8080 port with EC2 instance Public ip address
+- Add 8080 port with EC2 instance Public ip address
 
