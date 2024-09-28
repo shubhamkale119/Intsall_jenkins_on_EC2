@@ -19,15 +19,19 @@
       sudo yum upgrade`
 
 - Install Java (Amazon Linux 2023):
+  
       `sudo dnf install java-17-amazon-corretto -y `
 
 - Install Jenkins:
+  
       `sudo yum install jenkins -y`
 
 - Enable the Jenkins service to start at boot:
+  
       `sudo systemctl enable jenkins`
 
 - Start Jenkins as a service:
+  
       `sudo systemctl start jenkins`
 
 - Add 8080 port with EC2 instance Public ip address
