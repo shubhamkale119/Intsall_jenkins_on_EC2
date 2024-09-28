@@ -13,7 +13,7 @@
       sudo wget -O /etc/yum.repos.d/jenkins.repo \ 
       https://pkg.jenkins.io/redhat-stable/jenkins.repo 
 
-3.Import a key file from Jenkins-CI to enable installation from the package:
+- Import a key file from Jenkins-CI to enable installation from the package:
 
       sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key 
       sudo yum upgrade`
