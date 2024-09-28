@@ -1,6 +1,6 @@
 ## Install_jenkins_on_EC2 Amazon Linux
 
-- Launch EC2 instance first and coneect it using SSH
+- Launch EC2 instance first and connect it using SSH
 
 ## Commands to Install And run Jenkins
 
