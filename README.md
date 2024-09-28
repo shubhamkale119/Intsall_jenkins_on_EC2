@@ -34,5 +34,4 @@
   
       sudo systemctl start jenkins
 
-- Add 8080 port with EC2 instance Public ip address
-
+- Add security group as 8080 port with EC2 instance in the security policy
