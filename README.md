@@ -1,4 +1,4 @@
-## Install_jenkins_on_EC2 Amazon Linux
+## Install jenkins on EC2 Amazon Linux
 
 - Launch EC2 instance first and connect it using SSH
 
