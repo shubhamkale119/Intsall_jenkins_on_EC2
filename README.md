@@ -35,3 +35,11 @@
       sudo systemctl start jenkins
 
 - Add security group as 8080 port with EC2 instance in the security policy
+
+
+## Jenkins is master slave architecture  so how to coonect master with slave
+
+  - Create one serever where your jenkins has already installed
+  - Create another server where your slave is there with Java
+  - Create public and private key in the .ssh folder with command keygen
+  - Please refert this video link: https://youtu.be/XaSdKR2fOU4?si=qfzOIlusd-SyW4cu
