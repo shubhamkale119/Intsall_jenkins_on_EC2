@@ -6,7 +6,7 @@
 
 - Update preinstalled library
   
-     ``` sudo yum update ```
+  ``` sudo yum update ```
 
 - Add the Jenkins repo using the following command:
   
@@ -19,7 +19,7 @@
       sudo yum upgrade`
 
 4.Install Java (Amazon Linux 2023):
-      ` sudo dnf install java-17-amazon-corretto -y `
+      `sudo dnf install java-17-amazon-corretto -y `
 
 5. Install Jenkins
      -sudo yum install jenkins -y
