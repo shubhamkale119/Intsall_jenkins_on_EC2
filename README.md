@@ -1,15 +1,15 @@
-##Install_jenkins_on_EC2
+## Install_jenkins_on_EC2
 
-Launch EC2 instance first and coneect it using SSH
+- Launch EC2 instance first and coneect it using SSH
 
-##Commands to Install And run Jenkins
+## Commands to Install And run Jenkins
 
-1. Update preinstalled library
-     -sudo yum update
+- Update preinstalled library
+     ``` sudo yum update ```
 
-2.Add the Jenkins repo using the following command:
-     -sudo wget -O /etc/yum.repos.d/jenkins.repo \
-    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+- Add the Jenkins repo using the following command:
+     ``` sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo ```
 
 3.Import a key file from Jenkins-CI to enable installation from the package:
      -sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
