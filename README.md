@@ -10,8 +10,8 @@
 
 - Add the Jenkins repo using the following command:
   
-     ``` sudo wget -O /etc/yum.repos.d/jenkins.repo \ `
-    https://pkg.jenkins.io/redhat-stable/jenkins.repo ```
+         sudo wget -O /etc/yum.repos.d/jenkins.repo \ 
+         https://pkg.jenkins.io/redhat-stable/jenkins.repo 
 
 3.Import a key file from Jenkins-CI to enable installation from the package:
 
